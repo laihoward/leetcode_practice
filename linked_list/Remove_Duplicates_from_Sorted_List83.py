@@ -2,9 +2,10 @@ class Solution(object):
     def deleteDuplicates(self, head):
         if not head:
             return
-        printlist = head
-        while head:
-            if head.val == head.next.val:
-                head.next = head.next.next
-            head =head.next
-        return printlist
+        moveNode = head
+        while moveNode:
+            if moveNode.next and moveNode.val == moveNode.next.val:
+               moveNode.next = moveNode.next.next
+            else:
+                moveNode =moveNode.next
+        return head
