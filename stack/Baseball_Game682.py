@@ -23,3 +23,18 @@ class Solution(object):
             sumlist += i
         print(sumlist)
         return sumlist
+
+
+    def calPoints(self, ops):
+        recordlist = []
+        for i in ops:
+            if i == "+":
+                recordlist+=[recordlist[-1]+recordlist[-2]]  
+            elif i == "D":
+                recordlist+=[recordlist[-1]*2]              
+            elif i == "C":
+                recordlist.pop(-1)
+            else:
+                recordlist.append(int(i))
+            return sum(recordlist)
+                
