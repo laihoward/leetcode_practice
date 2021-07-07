@@ -64,7 +64,6 @@ def test_in_order_pre_order_level_order():
         tree.insert(key, value)
     in_order = tree.in_order()
     pre_order = tree.pre_order()
-    print(pre_order)
     level_order = tree.level_order()
     assert in_order ==  [10,12,13,25,37,38,40,51,66,84,89,95]
     assert pre_order == [38,13,10,12,25,37,51,40,84,66,89,95]
@@ -130,7 +129,7 @@ def test_find_parent_croot():
     
     p1, c1 = tree.find_parent_croot(66)
     p2, c2 = tree.find_parent_croot(89)
-    assert p1.key == p2.key
+    assert p1.key == p2.key==84
     assert c1.key == 66
     assert c2.key == 89
     
@@ -147,38 +146,38 @@ def test_right_most_child():
     assert parent.key == 25
     assert croot.key == 37
 
-# def test_remove():
-#     tree = Tree()
-#     l = [38,13,51,10,25,40,84,12,37,66,89,95]
-#     length = len(l)
-#     while len(l) > 0:
-#             key = l.pop(0)
-#             value = chr(key)
-#             tree.insert(key, value)
+def test_remove():
+    tree = Tree()
+    l = [38,13,51,10,25,40,84,12,37,66,89,95]
+    length = len(l)
+    while len(l) > 0:
+            key = l.pop(0)
+            value = chr(key)
+            tree.insert(key, value)
     
-#     tree.remove(38)
-#     assert tree.root.key == 37
-#     assert tree.find(38) == None
+    tree.remove(38)
+    assert tree.root.key == 37
+    assert tree.find(38) == None
     
-#     tree.remove(89)
-#     print(tree.in_order())
-#     p, c = tree.find_parent_croot(95)
-#     assert p.key == 84
-#     assert c.key == 95
+    tree.remove(89)
+    print(tree.in_order())
+    p, c = tree.find_parent_croot(95)
+    assert p.key == 84
+    assert c.key == 95
     
-#     tree.remove(13)
-#     print(tree.in_order())
-#     p, c = tree.find_parent_croot(10)
-#     assert p.key == 12
-#     assert c.key == 10
+    tree.remove(13)
+    print(tree.in_order())
+    p, c = tree.find_parent_croot(10)
+    assert p.key == 12
+    assert c.key == 10
     
-#     tree.remove(10)
-#     print(tree.in_order())
-#     tree.remove(15)
-#     print(tree.in_order())
-#     p, c = tree.find_parent_croot(25)
-#     assert p.key == 12
-#     assert c.key == 25
+    tree.remove(10)
+    print(tree.in_order())
+    tree.remove(15)
+    print(tree.in_order())
+    p, c = tree.find_parent_croot(25)
+    assert p.key == 12
+    assert c.key == 25
 
 # def test_remove2():
 #     tree = Tree()

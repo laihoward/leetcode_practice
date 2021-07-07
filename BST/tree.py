@@ -51,15 +51,50 @@ class Tree(object):
         if croot.key == key: #包含root.key == key 和base case
             return parent,croot
         elif croot.left and key < croot.key:
-            return self.recur_find_parent_croot(parent, croot.left, key)
+            return self.recur_find_parent_croot(croot, croot.left, key)
         elif croot.right and key > croot.key:
-            return self.recur_find_parent_croot(parent, croot.right, key)
-    
-    def right_most_child(self, parent, croot):
-        if croot.right:
-            return self.right_most_child(croot, croot.right)
+            return self.recur_find_parent_croot(croot, croot.right, key)
         else:
-            return parent,croot
+            return None, None
+    def right_most_child(self, croot, crootleft):
+        if crootleft.right:
+            return self.right_most_child(crootleft, crootleft.right)
+        else:
+            return croot,crootleft
+    
+    def remove(self, key):
+        if not self.root:
+            return
+        parent,croot = self.find_parent_croot(key)
+        if not croot:
+            return
+        if croot.left and croot.right:
+            self.two_child_remove(parent,croot)
+        else:
+            self.zero_one_child_remove(parent, croot)
+
+
+    def two_child_remove(self, parent, croot):
+        newparent,newcroot = self.right_most_child(croot,croot.left)#找出左樹最大的值
+        croot.key = newcroot.key#替換值
+        croot.value = newcroot.value
+        self.zero_one_child_remove(newparent,newcroot) #將左樹最大的值刪除
+
+    def zero_one_child_remove(self, parent, croot):
+        if parent.left and parent.left.key == croot.key:
+            if croot.left:
+                parent.left = croot.left
+            elif croot.right:
+                parent.left = croot.right
+            else:
+                parent.left = None
+        elif parent.right and parent.right.key == croot.key:
+            if croot.left:
+                parent.right = croot.left
+            elif croot.right:
+                parent.right = croot.right
+            else:
+                parent.right = None
 
     def in_order(self):
         res = list()
