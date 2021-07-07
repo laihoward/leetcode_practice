@@ -70,13 +70,13 @@ def test_in_order_pre_order_level_order():
     assert pre_order == [38,13,10,12,25,37,51,40,84,66,89,95]
     assert level_order == [38,13,51,10,25,40,84,12,37,66,89,95]
 
-# def test_height():
-#     tree = Tree()
-#     s = 100
-#     assert tree.height() == -1
-#     for i in range(0, s):
-#         tree.insert(i, i)
-#         tree.height() == i
+def test_height():
+    tree = Tree()
+    s = 100
+    assert tree.height() == -1
+    for i in range(0, s):
+        tree.insert(i, i)
+        assert tree.height() == i
 
 import random
 def test_find():

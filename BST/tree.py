@@ -1,4 +1,5 @@
 import math
+from typing import Coroutine
 class TreeNode(object):
     def __init__(self, key, value):
         self.key = key
@@ -99,7 +100,17 @@ class Tree(object):
                 queue.append(cur.right)
         return res
 
-
-
+    def height(self):
+        if not self.root:
+            return -1
+        else:
+            return self.recur_height(self.root,-1)
+    
+    def recur_height(self, croot,chight):
+        if not croot:
+            return chight
+        leftheight =  self.recur_height(croot.left,chight+1)
+        rightheight = self.recur_height(croot.right,chight+1)
+        return max(leftheight,rightheight)
     
     
