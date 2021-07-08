@@ -56,6 +56,7 @@ class Tree(object):
             return self.recur_find_parent_croot(croot, croot.right, key)
         else:
             return None, None
+    
     def right_most_child(self, croot, crootleft):
         if crootleft.right:
             return self.right_most_child(crootleft, crootleft.right)
@@ -72,7 +73,6 @@ class Tree(object):
             self.two_child_remove(parent,croot)
         else:
             self.zero_one_child_remove(parent, croot)
-
 
     def two_child_remove(self, parent, croot):
         newparent,newcroot = self.right_most_child(croot,croot.left)#找出左樹最大的值
@@ -148,4 +148,19 @@ class Tree(object):
         rightheight = self.recur_height(croot.right,chight+1)
         return max(leftheight,rightheight)
     
-    
+    def print_paths(self):
+        if not self.root:
+            return
+        s=''
+        l=list()
+        self.recur_print_paths(self.root,s,l)
+        return l
+
+    def recur_print_paths(self,croot, s,l):
+        s=f'{s} {croot.key}'
+        if not croot.left and not croot.right:
+            l.append(s)
+        if croot.left:
+            self.recur_print_paths(croot.left,s,l)
+        if croot.right:
+            self.recur_print_paths(croot.right,s,l)

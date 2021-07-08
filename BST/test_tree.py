@@ -210,17 +210,17 @@ def test_remove():
 #     assert pre_order == [38,51,84,89,95,66,40,13,25,37,10,12]
 
 
-# def test_print_paths():
-#     tree = Tree()
-#     l = [38,13,51,10,25,40,84,12,37,66,89,95]
-#     length = len(l)
-#     while len(l) > 0:
-#             key = l.pop(0)
-#             value = chr(key)
-#             tree.insert(key, value)
-#     l =tree.print_paths()
-#     assert l[0] == ' 38 13 10 12'
-#     assert l[1] == ' 38 13 25 37'
-#     assert l[2] == ' 38 51 40'
-#     assert l[3] == ' 38 51 84 66'
-#     assert l[4] == ' 38 51 84 89 95'
+def test_print_paths():
+    tree = Tree()
+    l = [38,13,51,10,25,40,84,12,37,66,89,95]
+    length = len(l)
+    while len(l) > 0:
+            key = l.pop(0)
+            value = chr(key)
+            tree.insert(key, value)
+    l =tree.print_paths()
+    assert l[0] == ' 38 13 10 12'
+    assert l[1] == ' 38 13 25 37'
+    assert l[2] == ' 38 51 40'
+    assert l[3] == ' 38 51 84 66'
+    assert l[4] == ' 38 51 84 89 95'

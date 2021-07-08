@@ -3,180 +3,180 @@ cwd=C:\Users\User\Desktop\leetcode_practice\BST
 args=('test_tree.py', '--debug', '-s')
 
   pytest_cmdline_main [hook]
-      config: <_pytest.config.Config object at 0x000001B797E45370>
+      config: <_pytest.config.Config object at 0x0000025699875400>
     pytest_plugin_registered [hook]
         plugin: <Session BST exitstatus=None testsfailed=0 testscollected=0>
-        manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+        manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
     finish pytest_plugin_registered --> [] [hook]
     pytest_configure [hook]
-        config: <_pytest.config.Config object at 0x000001B797E45370>
+        config: <_pytest.config.Config object at 0x0000025699875400>
       pytest_plugin_registered [hook]
-          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001B79857ADC0>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x0000025699FA8E50>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001B79857AF40>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x0000025699FA8FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
     early skip of rewriting module: faulthandler [assertion]
       pytest_configure [hook]
-          config: <_pytest.config.Config object at 0x000001B797E45370>
+          config: <_pytest.config.Config object at 0x0000025699875400>
       finish pytest_configure --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x000001B79857AFD0>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x0000025699FA8D90>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.stepwise.StepwisePlugin object at 0x000001B7985811F0>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          plugin: <_pytest.stepwise.StepwisePlugin object at 0x0000025699FB1280>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
     early skip of rewriting module: pdb [assertion]
     early skip of rewriting module: cmd [assertion]
     early skip of rewriting module: code [assertion]
     early skip of rewriting module: codeop [assertion]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          plugin: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.config.Config object at 0x000001B797E45370>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          plugin: <_pytest.config.Config object at 0x0000025699875400>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.mark' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\mark\\__init__.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.main' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\main.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.runner' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\runner.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.fixtures' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\fixtures.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.helpconfig' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\helpconfig.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.python' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\python.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.terminal' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\terminal.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.debugging' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\debugging.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.unittest' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\unittest.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.capture' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\capture.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.skipping' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\skipping.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.tmpdir' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\tmpdir.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.monkeypatch' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\monkeypatch.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.recwarn' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\recwarn.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.pastebin' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\pastebin.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.nose' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\nose.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.assertion' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\assertion\\__init__.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.junitxml' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\junitxml.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.doctest' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\doctest.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.cacheprovider' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\cacheprovider.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.freeze_support' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\freeze_support.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.setuponly' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\setuponly.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.setupplan' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\setupplan.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.stepwise' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\stepwise.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.warnings' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\warnings.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.logging' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\logging.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.reports' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\reports.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.faulthandler' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\faulthandler.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <CaptureManager _method='no' _global_capturing=<MultiCapture out=None err=None in_=None _state='suspended' _in_suspended=False> _capture_fixture=None>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <Session BST exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001B79857ADC0>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x0000025699FA8E50>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001B79857AF40>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x0000025699FA8FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x000001B79857AFD0>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x0000025699FA8D90>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.stepwise.StepwisePlugin object at 0x000001B7985811F0>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          plugin: <_pytest.stepwise.StepwisePlugin object at 0x0000025699FB1280>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_warning_recorded [hook]
           warning_message: {message : DeprecationWarning("Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.9 it will stop working"), category : 'DeprecationWarning', filename : 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\pyreadline\\py3k_compat.py', lineno : 8, line : None}
@@ -185,174 +185,174 @@ args=('test_tree.py', '--debug', '-s')
           location: None
       finish pytest_warning_recorded --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.terminal.TerminalReporter object at 0x000001B798581610>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          plugin: <_pytest.terminal.TerminalReporter object at 0x0000025699FB16A0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.logging.LoggingPlugin object at 0x000001B7985AF580>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          plugin: <_pytest.logging.LoggingPlugin object at 0x0000025699FDF610>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
     finish pytest_configure --> [] [hook]
     pytest_sessionstart [hook]
         session: <Session BST exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
       pytest_plugin_registered [hook]
-          plugin: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          plugin: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.config.Config object at 0x000001B797E45370>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          plugin: <_pytest.config.Config object at 0x0000025699875400>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.mark' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\mark\\__init__.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.main' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\main.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.runner' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\runner.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.fixtures' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\fixtures.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.helpconfig' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\helpconfig.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.python' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\python.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.terminal' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\terminal.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.debugging' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\debugging.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.unittest' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\unittest.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.capture' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\capture.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.skipping' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\skipping.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.tmpdir' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\tmpdir.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.monkeypatch' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\monkeypatch.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.recwarn' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\recwarn.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.pastebin' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\pastebin.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.nose' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\nose.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.assertion' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\assertion\\__init__.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.junitxml' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\junitxml.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.doctest' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\doctest.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.cacheprovider' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\cacheprovider.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.freeze_support' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\freeze_support.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.setuponly' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\setuponly.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.setupplan' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\setupplan.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.stepwise' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\stepwise.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.warnings' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\warnings.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.logging' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\logging.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.reports' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\reports.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <module '_pytest.faulthandler' from 'C:\\ProgramData\\Anaconda3\\lib\\site-packages\\_pytest\\faulthandler.py'>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <CaptureManager _method='no' _global_capturing=<MultiCapture out=None err=None in_=None _state='suspended' _in_suspended=False> _capture_fixture=None>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
           plugin: <Session BST exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001B79857ADC0>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x0000025699FA8E50>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001B79857AF40>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x0000025699FA8FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x000001B79857AFD0>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x0000025699FA8D90>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.stepwise.StepwisePlugin object at 0x000001B7985811F0>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          plugin: <_pytest.stepwise.StepwisePlugin object at 0x0000025699FB1280>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.terminal.TerminalReporter object at 0x000001B798581610>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          plugin: <_pytest.terminal.TerminalReporter object at 0x0000025699FB16A0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.logging.LoggingPlugin object at 0x000001B7985AF580>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          plugin: <_pytest.logging.LoggingPlugin object at 0x0000025699FDF610>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          plugin: <_pytest.fixtures.FixtureManager object at 0x000001B7985CB6A0>
-          manager: <_pytest.config.PytestPluginManager object at 0x000001B795D0A310>
+          plugin: <_pytest.fixtures.FixtureManager object at 0x0000025699FFA730>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000025699831DF0>
       finish pytest_plugin_registered --> [] [hook]
       pytest_report_header [hook]
-          config: <_pytest.config.Config object at 0x000001B797E45370>
+          config: <_pytest.config.Config object at 0x0000025699875400>
           startdir: C:\Users\User\Desktop\leetcode_practice\BST
       finish pytest_report_header --> [['rootdir: C:\\Users\\User\\Desktop\\leetcode_practice\\BST'], ['using: pytest-6.1.1 pylib-1.9.0']] [hook]
     finish pytest_sessionstart --> [] [hook]
@@ -387,7 +387,8 @@ args=('test_tree.py', '--debug', '-s')
           collector: <Module test_tree.py>
       find_module called for: test_tree [assertion]
       matched test file (was specified on cmdline): 'C:\\Users\\User\\Desktop\\leetcode_practice\\BST\\test_tree.py' [assertion]
-      found cached rewritten pyc for C:\Users\User\Desktop\leetcode_practice\BST\test_tree.py [assertion]
+      _read_pyc(C:\Users\User\Desktop\leetcode_practice\BST\test_tree.py): invalid or out of date pyc [assertion]
+      rewriting WindowsPath('C:/Users/User/Desktop/leetcode_practice/BST/test_tree.py') [assertion]
       early skip of rewriting module: tree [assertion]
         pytest_pycollect_makeitem [hook]
             collector: <Module test_tree.py>
@@ -422,49 +423,49 @@ args=('test_tree.py', '--debug', '-s')
         pytest_pycollect_makeitem [hook]
             collector: <Module test_tree.py>
             name: test_insert
-            obj: <function test_insert at 0x000001B7985C0B80>
+            obj: <function test_insert at 0x0000025699FF1E50>
           pytest_generate_tests [hook]
-              metafunc: <_pytest.python.Metafunc object at 0x000001B7985D50D0>
+              metafunc: <_pytest.python.Metafunc object at 0x000002569A0055B0>
           finish pytest_generate_tests --> [] [hook]
         finish pytest_pycollect_makeitem --> [<Function test_insert>] [hook]
         pytest_pycollect_makeitem [hook]
             collector: <Module test_tree.py>
             name: test_insert2
-            obj: <function test_insert2 at 0x000001B7985C0D30>
+            obj: <function test_insert2 at 0x0000025699FF1CA0>
           pytest_generate_tests [hook]
-              metafunc: <_pytest.python.Metafunc object at 0x000001B7985D5850>
+              metafunc: <_pytest.python.Metafunc object at 0x000002569A005D60>
           finish pytest_generate_tests --> [] [hook]
         finish pytest_pycollect_makeitem --> [<Function test_insert2>] [hook]
         pytest_pycollect_makeitem [hook]
             collector: <Module test_tree.py>
             name: test_in_order
-            obj: <function test_in_order at 0x000001B7985F18B0>
+            obj: <function test_in_order at 0x000002569A096DC0>
           pytest_generate_tests [hook]
-              metafunc: <_pytest.python.Metafunc object at 0x000001B7985D5DF0>
+              metafunc: <_pytest.python.Metafunc object at 0x000002569A005E20>
           finish pytest_generate_tests --> [] [hook]
         finish pytest_pycollect_makeitem --> [<Function test_in_order>] [hook]
         pytest_pycollect_makeitem [hook]
             collector: <Module test_tree.py>
             name: test_in_order2
-            obj: <function test_in_order2 at 0x000001B7985F1940>
+            obj: <function test_in_order2 at 0x000002569A096E50>
           pytest_generate_tests [hook]
-              metafunc: <_pytest.python.Metafunc object at 0x000001B7985D5EB0>
+              metafunc: <_pytest.python.Metafunc object at 0x000002569A005970>
           finish pytest_generate_tests --> [] [hook]
         finish pytest_pycollect_makeitem --> [<Function test_in_order2>] [hook]
         pytest_pycollect_makeitem [hook]
             collector: <Module test_tree.py>
             name: test_in_order_pre_order_level_order
-            obj: <function test_in_order_pre_order_level_order at 0x000001B7985F19D0>
+            obj: <function test_in_order_pre_order_level_order at 0x000002569A096EE0>
           pytest_generate_tests [hook]
-              metafunc: <_pytest.python.Metafunc object at 0x000001B7985D5DF0>
+              metafunc: <_pytest.python.Metafunc object at 0x000002569A005E20>
           finish pytest_generate_tests --> [] [hook]
         finish pytest_pycollect_makeitem --> [<Function test_in_order_pre_order_level_order>] [hook]
         pytest_pycollect_makeitem [hook]
             collector: <Module test_tree.py>
             name: test_height
-            obj: <function test_height at 0x000001B7985F1A60>
+            obj: <function test_height at 0x000002569A096F70>
           pytest_generate_tests [hook]
-              metafunc: <_pytest.python.Metafunc object at 0x000001B7985D5EB0>
+              metafunc: <_pytest.python.Metafunc object at 0x000002569A005970>
           finish pytest_generate_tests --> [] [hook]
         finish pytest_pycollect_makeitem --> [<Function test_height>] [hook]
         pytest_pycollect_makeitem [hook]
@@ -475,44 +476,52 @@ args=('test_tree.py', '--debug', '-s')
         pytest_pycollect_makeitem [hook]
             collector: <Module test_tree.py>
             name: test_find
-            obj: <function test_find at 0x000001B7985F1AF0>
+            obj: <function test_find at 0x000002569A021040>
           pytest_generate_tests [hook]
-              metafunc: <_pytest.python.Metafunc object at 0x000001B7985D5EB0>
+              metafunc: <_pytest.python.Metafunc object at 0x000002569A005970>
           finish pytest_generate_tests --> [] [hook]
         finish pytest_pycollect_makeitem --> [<Function test_find>] [hook]
         pytest_pycollect_makeitem [hook]
             collector: <Module test_tree.py>
             name: test_find2
-            obj: <function test_find2 at 0x000001B7985F1B80>
+            obj: <function test_find2 at 0x000002569A0210D0>
           pytest_generate_tests [hook]
-              metafunc: <_pytest.python.Metafunc object at 0x000001B7985D5DF0>
+              metafunc: <_pytest.python.Metafunc object at 0x000002569A005E20>
           finish pytest_generate_tests --> [] [hook]
         finish pytest_pycollect_makeitem --> [<Function test_find2>] [hook]
         pytest_pycollect_makeitem [hook]
             collector: <Module test_tree.py>
             name: test_find_parent_croot
-            obj: <function test_find_parent_croot at 0x000001B7985F1C10>
+            obj: <function test_find_parent_croot at 0x000002569A021160>
           pytest_generate_tests [hook]
-              metafunc: <_pytest.python.Metafunc object at 0x000001B7985D5DF0>
+              metafunc: <_pytest.python.Metafunc object at 0x000002569A005970>
           finish pytest_generate_tests --> [] [hook]
         finish pytest_pycollect_makeitem --> [<Function test_find_parent_croot>] [hook]
         pytest_pycollect_makeitem [hook]
             collector: <Module test_tree.py>
             name: test_right_most_child
-            obj: <function test_right_most_child at 0x000001B7985F1CA0>
+            obj: <function test_right_most_child at 0x000002569A0211F0>
           pytest_generate_tests [hook]
-              metafunc: <_pytest.python.Metafunc object at 0x000001B7985D5EB0>
+              metafunc: <_pytest.python.Metafunc object at 0x000002569A005E20>
           finish pytest_generate_tests --> [] [hook]
         finish pytest_pycollect_makeitem --> [<Function test_right_most_child>] [hook]
         pytest_pycollect_makeitem [hook]
             collector: <Module test_tree.py>
             name: test_remove
-            obj: <function test_remove at 0x000001B7985F1D30>
+            obj: <function test_remove at 0x000002569A021280>
           pytest_generate_tests [hook]
-              metafunc: <_pytest.python.Metafunc object at 0x000001B7985D5DF0>
+              metafunc: <_pytest.python.Metafunc object at 0x000002569A005970>
           finish pytest_generate_tests --> [] [hook]
         finish pytest_pycollect_makeitem --> [<Function test_remove>] [hook]
-      finish pytest_make_collect_report --> <CollectReport 'test_tree.py' lenresult=11 outcome='passed'> [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_tree.py>
+            name: test_print_paths
+            obj: <function test_print_paths at 0x000002569A021310>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000002569A005E20>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_print_paths>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'test_tree.py' lenresult=12 outcome='passed'> [hook]
     genitems <Function test_insert> [collection]
       pytest_itemcollected [hook]
           item: <Function test_insert>
@@ -557,25 +566,29 @@ args=('test_tree.py', '--debug', '-s')
       pytest_itemcollected [hook]
           item: <Function test_remove>
       finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_print_paths> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_print_paths>
+      finish pytest_itemcollected --> [] [hook]
       pytest_collectreport [hook]
-          report: <CollectReport 'test_tree.py' lenresult=11 outcome='passed'>
+          report: <CollectReport 'test_tree.py' lenresult=12 outcome='passed'>
       finish pytest_collectreport --> [] [hook]
       pytest_collection_modifyitems [hook]
           session: <Session BST exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
-          config: <_pytest.config.Config object at 0x000001B797E45370>
-          items: [<Function test_insert>, <Function test_insert2>, <Function test_in_order>, <Function test_in_order2>, <Function test_in_order_pre_order_level_order>, <Function test_height>, <Function test_find>, <Function test_find2>, <Function test_find_parent_croot>, <Function test_right_most_child>, <Function test_remove>]
+          config: <_pytest.config.Config object at 0x0000025699875400>
+          items: [<Function test_insert>, <Function test_insert2>, <Function test_in_order>, <Function test_in_order2>, <Function test_in_order_pre_order_level_order>, <Function test_height>, <Function test_find>, <Function test_find2>, <Function test_find_parent_croot>, <Function test_right_most_child>, <Function test_remove>, <Function test_print_paths>]
       finish pytest_collection_modifyitems --> [] [hook]
       pytest_collection_finish [hook]
           session: <Session BST exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
         pytest_report_collectionfinish [hook]
-            config: <_pytest.config.Config object at 0x000001B797E45370>
+            config: <_pytest.config.Config object at 0x0000025699875400>
             startdir: C:\Users\User\Desktop\leetcode_practice\BST
-            items: [<Function test_insert>, <Function test_insert2>, <Function test_in_order>, <Function test_in_order2>, <Function test_in_order_pre_order_level_order>, <Function test_height>, <Function test_find>, <Function test_find2>, <Function test_find_parent_croot>, <Function test_right_most_child>, <Function test_remove>]
+            items: [<Function test_insert>, <Function test_insert2>, <Function test_in_order>, <Function test_in_order2>, <Function test_in_order_pre_order_level_order>, <Function test_height>, <Function test_find>, <Function test_find2>, <Function test_find_parent_croot>, <Function test_right_most_child>, <Function test_remove>, <Function test_print_paths>]
         finish pytest_report_collectionfinish --> [] [hook]
       finish pytest_collection_finish --> [] [hook]
     finish pytest_collection --> None [hook]
     pytest_runtestloop [hook]
-        session: <Session BST exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=11>
+        session: <Session BST exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=12>
       pytest_runtest_protocol [hook]
           item: <Function test_insert>
           nextitem: <Function test_insert2>
@@ -594,7 +607,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_insert' when='setup' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_insert' when='setup' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('', '', '') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_call [hook]
@@ -611,7 +624,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_insert' when='call' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_insert' when='call' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_teardown [hook]
@@ -626,7 +639,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_insert' when='teardown' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_insert' when='teardown' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('', '', '') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_logfinish [hook]
@@ -652,7 +665,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_insert2' when='setup' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_insert2' when='setup' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('', '', '') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_call [hook]
@@ -669,7 +682,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_insert2' when='call' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_insert2' when='call' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_teardown [hook]
@@ -684,7 +697,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_insert2' when='teardown' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_insert2' when='teardown' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('', '', '') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_logfinish [hook]
@@ -710,7 +723,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_in_order' when='setup' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_in_order' when='setup' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('', '', '') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_call [hook]
@@ -727,7 +740,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_in_order' when='call' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_in_order' when='call' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_teardown [hook]
@@ -742,7 +755,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_in_order' when='teardown' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_in_order' when='teardown' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('', '', '') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_logfinish [hook]
@@ -768,7 +781,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_in_order2' when='setup' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_in_order2' when='setup' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('', '', '') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_call [hook]
@@ -785,7 +798,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_in_order2' when='call' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_in_order2' when='call' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_teardown [hook]
@@ -800,7 +813,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_in_order2' when='teardown' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_in_order2' when='teardown' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('', '', '') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_logfinish [hook]
@@ -826,7 +839,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_in_order_pre_order_level_order' when='setup' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_in_order_pre_order_level_order' when='setup' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('', '', '') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_call [hook]
@@ -843,7 +856,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_in_order_pre_order_level_order' when='call' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_in_order_pre_order_level_order' when='call' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_teardown [hook]
@@ -858,7 +871,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_in_order_pre_order_level_order' when='teardown' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_in_order_pre_order_level_order' when='teardown' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('', '', '') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_logfinish [hook]
@@ -884,7 +897,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_height' when='setup' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_height' when='setup' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('', '', '') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_call [hook]
@@ -901,7 +914,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_height' when='call' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_height' when='call' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_teardown [hook]
@@ -916,7 +929,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_height' when='teardown' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_height' when='teardown' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('', '', '') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_logfinish [hook]
@@ -942,7 +955,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_find' when='setup' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_find' when='setup' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('', '', '') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_call [hook]
@@ -959,7 +972,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_find' when='call' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_find' when='call' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_teardown [hook]
@@ -974,7 +987,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_find' when='teardown' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_find' when='teardown' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('', '', '') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_logfinish [hook]
@@ -1000,7 +1013,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_find2' when='setup' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_find2' when='setup' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('', '', '') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_call [hook]
@@ -1017,7 +1030,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_find2' when='call' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_find2' when='call' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_teardown [hook]
@@ -1032,7 +1045,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_find2' when='teardown' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_find2' when='teardown' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('', '', '') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_logfinish [hook]
@@ -1058,7 +1071,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_find_parent_croot' when='setup' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_find_parent_croot' when='setup' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('', '', '') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_call [hook]
@@ -1075,7 +1088,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_find_parent_croot' when='call' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_find_parent_croot' when='call' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_teardown [hook]
@@ -1090,7 +1103,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_find_parent_croot' when='teardown' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_find_parent_croot' when='teardown' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('', '', '') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_logfinish [hook]
@@ -1116,7 +1129,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_right_most_child' when='setup' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_right_most_child' when='setup' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('', '', '') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_call [hook]
@@ -1133,7 +1146,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_right_most_child' when='call' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_right_most_child' when='call' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_teardown [hook]
@@ -1148,7 +1161,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_right_most_child' when='teardown' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_right_most_child' when='teardown' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('', '', '') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_logfinish [hook]
@@ -1158,7 +1171,7 @@ args=('test_tree.py', '--debug', '-s')
       finish pytest_runtest_protocol --> True [hook]
       pytest_runtest_protocol [hook]
           item: <Function test_remove>
-          nextitem: None
+          nextitem: <Function test_print_paths>
         pytest_runtest_logstart [hook]
             nodeid: test_tree.py::test_remove
             location: ('test_tree.py', 148, 'test_remove')
@@ -1174,7 +1187,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_remove' when='setup' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_remove' when='setup' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('', '', '') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_call [hook]
@@ -1191,12 +1204,12 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_remove' when='call' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_remove' when='call' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_teardown [hook]
             item: <Function test_remove>
-            nextitem: None
+            nextitem: <Function test_print_paths>
         finish pytest_runtest_teardown --> [] [hook]
         pytest_runtest_makereport [hook]
             item: <Function test_remove>
@@ -1206,7 +1219,7 @@ args=('test_tree.py', '--debug', '-s')
             report: <TestReport 'test_tree.py::test_remove' when='teardown' outcome='passed'>
           pytest_report_teststatus [hook]
               report: <TestReport 'test_tree.py::test_remove' when='teardown' outcome='passed'>
-              config: <_pytest.config.Config object at 0x000001B797E45370>
+              config: <_pytest.config.Config object at 0x0000025699875400>
           finish pytest_report_teststatus --> ('', '', '') [hook]
         finish pytest_runtest_logreport --> [] [hook]
         pytest_runtest_logfinish [hook]
@@ -1214,16 +1227,74 @@ args=('test_tree.py', '--debug', '-s')
             location: ('test_tree.py', 148, 'test_remove')
         finish pytest_runtest_logfinish --> [] [hook]
       finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_print_paths>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: test_tree.py::test_print_paths
+            location: ('test_tree.py', 212, 'test_print_paths')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_print_paths>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_print_paths>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_tree.py::test_print_paths' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_tree.py::test_print_paths' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_tree.py::test_print_paths' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000025699875400>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_print_paths>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_print_paths>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_print_paths>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_tree.py::test_print_paths' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_tree.py::test_print_paths' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_tree.py::test_print_paths' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000025699875400>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_print_paths>
+            nextitem: None
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_print_paths>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_tree.py::test_print_paths' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_tree.py::test_print_paths' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_tree.py::test_print_paths' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000025699875400>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: test_tree.py::test_print_paths
+            location: ('test_tree.py', 212, 'test_print_paths')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
     finish pytest_runtestloop --> True [hook]
     pytest_sessionfinish [hook]
-        session: <Session BST exitstatus=0 testsfailed=0 testscollected=11>
+        session: <Session BST exitstatus=0 testsfailed=0 testscollected=12>
         exitstatus: 0
       pytest_terminal_summary [hook]
-          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x000001B798581610>
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x0000025699FB16A0>
           exitstatus: 0
-          config: <_pytest.config.Config object at 0x000001B797E45370>
+          config: <_pytest.config.Config object at 0x0000025699875400>
       finish pytest_terminal_summary --> [] [hook]
     finish pytest_sessionfinish --> [] [hook]
     pytest_unconfigure [hook]
-        config: <_pytest.config.Config object at 0x000001B797E45370>
+        config: <_pytest.config.Config object at 0x0000025699875400>
     finish pytest_unconfigure --> [] [hook]
