@@ -1,4 +1,4 @@
-
+#use BFS to do Binary Tree Level Order Traversal
 class Solution(object):
     def levelOrder(self, root):
         if not root:
