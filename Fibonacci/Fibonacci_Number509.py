@@ -1,3 +1,5 @@
+
+# O(2的n次方)
 class Solution(object):
     def fib(self, n):
         if n<=1:
