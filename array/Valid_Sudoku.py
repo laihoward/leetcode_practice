@@ -1,6 +1,6 @@
 class Solution(object):
     def isValidSudoku(self, board):
-        return self.rowisValid(board)
+        return self.rowisValid(board) and self.columnisValid(board) and self.boxisValid(board)
 
     def rowisValid(self, board):
         n=len(board)
@@ -19,7 +19,7 @@ class Solution(object):
                 return False
         return True
     
-    def isValidNineCell(self, board):
+    def boxisValid(self, board):
         n = len(board)
         for i in range(0, n, 3):
             for j in range(0, n, 3):
