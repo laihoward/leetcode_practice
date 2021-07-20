@@ -12,13 +12,25 @@ class Solution(object):
         print(count)
         return count
 
+    def removeDuplicates2(self, nums):
+        count =0
+        i = 0
+        while i < len(nums):
+            if nums[i]!=nums[count]:
+                count+=1
+                nums[count] = nums[i]
+            i+=1
+        count+=1
+        print(nums)
+        print(count)
+        return count
 
 
-def main():
-    s=Solution()
-    array = [1,1,2]
-    array2 = [0,0,1,1,1,2,2,3,3,4]
-    s.removeDuplicates(array)
-    s.removeDuplicates(array2)
-if __name__ == '__main__':
-    main()
+
+
+
+s=Solution()
+array = [1,1,2]
+array2 = [0,0,1,1,1,2,2,3,3,4]
+s.removeDuplicates(array)
+s.removeDuplicates2(array2)
