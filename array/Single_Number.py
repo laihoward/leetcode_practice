@@ -11,8 +11,10 @@ class Solution(object):
         res=0
         for num in nums:
             res^=num
+            print(res)
         return res
 
 s=Solution()
 nums =[4,1,2,1,2]
-print(s.singleNumber(nums))
+
+print(s.singleNumber2(nums))
