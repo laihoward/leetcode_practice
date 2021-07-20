@@ -21,8 +21,6 @@ class Solution(object):
                 nums[count] = nums[i]
             i+=1
         count+=1
-        print(nums)
-        print(count)
         return count
 
 
