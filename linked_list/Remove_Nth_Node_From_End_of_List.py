@@ -24,4 +24,4 @@ class Solution(object):
             head= head.next
         head.next = head.next.next
         return printnode
-    
+
