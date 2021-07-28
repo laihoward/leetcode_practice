@@ -1,7 +1,6 @@
 class Solution(object):
     def hasCycle(self, head):
-        oneStep = head
-        twoStep = head
+        oneStep =twoStep = head
         while twoStep and twoStep.next:
             twoStep = twoStep.next.next
             oneStep = oneStep.next
