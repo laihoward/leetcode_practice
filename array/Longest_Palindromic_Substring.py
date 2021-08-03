@@ -8,12 +8,12 @@ class Solution(object):
             return s[start+1:end]
         for i in range(len(s)):
             step1 = moveLR(s,i,i)
-            print(step1)
+            
             if len(step1) >len(res):
                 res = step1
                 
             step2 = moveLR(s,i,i+1)
-            print(step2)
+            
             if len(step2) >len(res):
                 res = step2     
                 
