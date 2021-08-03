@@ -17,6 +17,21 @@ class Solution(object):
                     right+=1
         return False
 
+    
+    #O(n)
+    def increasingTriplet(self, nums):
+        small=float("inf")
+        middle=float("inf")
+        for i in nums:
+            if i>middle:
+                return True
+            elif i>small and i<=middle:
+                middle = i
+            else:
+                small = i
+        return False
+
+
 
 
 
