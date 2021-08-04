@@ -25,4 +25,22 @@ class Solution(object):
             count+=1
         oddhead.next = y
         return x
+
+#space complexity O(1) and time complexity O(n) .
+    def oddEvenList(self, head):
+        if not head:
+            return None
+        oddhead = head
+        evenhead = head.next
+        y=evenhead
+        while evenhead and evenhead.next:
+            oddhead.next = evenhead.next
+            oddhead = oddhead.next
+            evenhead.next = oddhead.next
+            evenhead=evenhead.next
+        oddhead.next=y
+        return head
+        
+
+            
     
