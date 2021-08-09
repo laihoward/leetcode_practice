@@ -13,7 +13,7 @@ class Solution(object):
             middle =(left+right)//2
             if nums[middle]==target:
                 return middle
-            elif nums[left]<=nums[middle]<target or target<nums[left]<=nums[middle] or nums[middle]<target<=nums[left]:
+            elif nums[left]<=nums[middle]<target or target<nums[left]<=nums[middle] or nums[middle]<target<nums[left]:
                 left=middle+1
             else:
                 right=middle-1
