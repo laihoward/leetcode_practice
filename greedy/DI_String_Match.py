@@ -11,10 +11,7 @@ class Solution(object):
             else:
                 res.append(end)
                 end-=1
-        if s[-1]=="I":
-            res.append(start)
-        else:
-            res.append(end)
+        res.append(end)
         print(res)
         return res
 
