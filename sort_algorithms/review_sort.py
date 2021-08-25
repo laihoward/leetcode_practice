@@ -21,10 +21,22 @@ def selection_sort(num):
     print(num)
     return num
 
+def insertionSort(num):
+    for i in range(1,len(num)):
+        res=num[i]
+        j=i-1
+        while j>=0 and res<num[j]:
+            num[j+1]=num[j]
+            j-=1
+        num[j+1]=res
+    print(num)
+    return num
+
 
 
 
     
 array = [38,27,43,3,9,82,10]
 # bubble_sort(array)
-selection_sort(array)
+# selection_sort(array)
+insertionSort(array)
